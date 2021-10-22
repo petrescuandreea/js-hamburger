@@ -1,10 +1,10 @@
-const hamburger = document.getElementsByClassName("fas");
+const hamburger = document.querySelector("fas");
 
 hamburger.addEventListener("click",
 
     function() {
         
-        document.getElementsByClassName("hamburger-menu").style.display = "block";
+        document.querySelector("hamburger-menu").style.display="block";
 
     }
 
