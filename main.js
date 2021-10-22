@@ -3,13 +3,13 @@
 
 const hamburger = document.querySelector(".fas");
 const times = document.querySelector(".close");
-
+const menu = document.querySelector(".hamburger-menu");
 
 // Show hamburger-menu 
 hamburger.addEventListener("click",
 
     function() {
-        document.querySelector(".hamburger-menu").classList.add("active")
+        menu.classList.add("active");
     }
 
 )
@@ -20,7 +20,7 @@ hamburger.addEventListener("click",
 times.addEventListener("click",
 
     function() {
-        document.querySelector(".hamburger-menu").style.display="none";
+        menu.classList.remove("active");
     }
 
 )
